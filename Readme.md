@@ -2,11 +2,11 @@
 
 ### Pre-requisite
 
-#### a. Node JS installed
+    #### a. Node JS installed
 
-#### b. NPM installed
+    #### b. NPM installed
 
-#### c. VSCode installed
+    #### c. VSCode installed
 
 ### 1. npm init
 
