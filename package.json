@@ -1,0 +1,31 @@
+{
+  "name": "app-without-cra",
+  "version": "1.0.0",
+  "description": "react app without using create-react-app command",
+  "main": "src/index.js",
+  "author": "Amrit Kumar Sahu",
+  "license": "ISC",
+  "scripts": {
+    "dev": "webpack-dev-server --watch-content-base --colors --hot --hot-only --compress  --open --env development --mode development",
+    "build": "webpack .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "@babel/preset-react": "^7.18.6",
+    "@babel/runtime": "^7.18.9",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^4.5.2",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
